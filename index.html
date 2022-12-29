@@ -9,10 +9,10 @@
   </head>
   <body>
     <header class="header">
-      <div class="header_content wrap">
+      <div class="header__content wrap">
         <span class="logo">IC &#171;REPAIR DESIGN PROJECT&#187;</span>
-        <nav class="nav">
-          <ul class="nav_menu">
+        <nav class="menu">
+          <ul class="menu__list">
             <li><a href="#">Home</a></li>
             <li><a href="#">PROJECTS</a></li>
             <li><a href="#">MEASUREMENT</a></li>
@@ -22,19 +22,125 @@
           </ul>
         </nav>
         <div class="phone">
-          <a href="tel:+79287683239" class="phone_number">
+          <a class="phone__number" href="tel:+79287683239">
             +7 (928) 768-32-39
           </a>
-          <button class="button button-active">Request a call</button>
+          <button class="button button--active">Request a call</button>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="home">
+        <div class="home__wrap wrap">
+          <div class="home__content">
+            <h1 class="title">
+              Turnkey Repair in the<br />
+              city of <span class="title title--gold">Rostov-on-Don</span>
+            </h1>
+            <p class="home__text text-light">
+              Get ready-made turnkey repairs on time<br />
+              with work time saving up to 45 days and 20% from<br />
+              cost of materials due to the organization of work
+            </p>
+            <button class="button button--active">CALCULATE THE COST</button>
+            <button class="button">SUBMIT YOUR APPLICATION</button>
+          </div>
+        </div>
+      </section>
+      <section class="projects text-light">
+        <div class="projects__content wrap">
+          <div class="projects__elem project-empty"></div>
+          <ul class="projects__elem project-list">
+            <li class="project-list__item project-list__item--active">
+              Rostov-on-Don, Admiral
+            </li>
+            <li class="project-list__item">Sochi Thieves</li>
+            <li class="project-list__item">Rostov-on-Don Patriotic</li>
+          </ul>
+          <div class="projects__elem project-info">
+            <h2 class="title title--gold">Completed<br />projects</h2>
+            <p class="project-info__text">
+              Only a small part of the work performed by our company is
+              presented on the site. For 14 years on in the construction market
+              we have made happy more than 1000 families
+            </p>
+            <div class="project-info__items">
+              <div class="project-info__item">
+                <h4 class="title title--gold">City:</h4>
+                <p>
+                  Rostov-on-Don<br />
+                  LCD admiral
+                </p>
+              </div>
+              <div class="project-info__item">
+                <h4 class="title title--gold">Apartment area:</h4>
+                <p>81 m<sup>2</sup></p>
+              </div>
+              <div class="project-info__item">
+                <h4 class="title title--gold">Repair time:</h4>
+                <p>3.5 months</p>
+              </div>
+              <div class="project-info__item">
+                <h4 class="title title--gold">Repair Cost:</h4>
+                <p>Upon request</p>
+              </div>
+            </div>
+            <div class="slider-control">
+              <img class="slider-control__next" src="images/arrow.svg" alt="" />
+              <div
+                class="slider-control__dot slider-control__dot--active"
+              ></div>
+              <div class="slider-control__dot"></div>
+              <div class="slider-control__dot"></div>
+              <img class="slider-control__prev" src="images/arrow.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="projects__elem slider__image">
+            <img
+              src="images/slider-01.jpg"
+              alt="image: Rostov-on-Don, Admiral"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="online-control">
+        <div class="online-control_content">
+          <h3 class="title title--dark">online control</h3>
+          <div class="online-control__title-ico"></div>
+          <img src="" alt="" class="online-control__video" />
+          <hr class="online-control__line" />
+          <p class="online-control__text"></p>
+          <form action="" class="online-control__form"></form>
+        </div>
+      </section>
+      <section class="types-repair">
+        <div class="types-repair__content"></div>
+      </section>
+      <section class="request">
+        <div class="request__content">
+          <div class="request__benefits"></div>
+          <div class="request__call"></div>
+        </div>
+      </section>
+      <section class="styles">
+        <div class="styles__content"></div>
+      </section>
+      <section class="clients">
+        <div class="clients__content"></div>
+      </section>
+      <sections class="questions">
+        <div class="questions__content"></div>
+      </sections>
+      <sections class="contacts">
+        <div class="contacts__content"></div>
+      </sections>
+    </main>
     <footer class="footer">
-      <div class="footer_content wrap">
+      <div class="footer__content wrap">
         <span class="logo">IC &#171;REPAIR DESIGN PROJECT&#187;</span>
-        <nav class="nav">
-          <ul class="nav_menu">
+        <nav class="menu">
+          <ul class="menu__list">
             <li><a href="#">Home</a></li>
             <li><a href="#">PROJECTS</a></li>
             <li><a href="#">MEASUREMENT</a></li>
@@ -44,10 +150,10 @@
           </ul>
         </nav>
         <div class="phone">
-          <a href="tel:+79287683239" class="phone_number">
+          <a class="phone__number" href="tel:+79287683239">
             +7 (928) 768-32-39
           </a>
-          <button class="button button-active">Request a call</button>
+          <button class="button button--active">Request a call</button>
         </div>
       </div>
     </footer>
