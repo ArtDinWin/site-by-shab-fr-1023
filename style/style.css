@@ -422,8 +422,10 @@ footer a:active {
 .ico-wrap {
     display: inline-block;
     position: relative;
-    margin-bottom: 30px;
+}
 
+section .ico-wrap {
+    margin-bottom: 30px;
 }
 
 .ico-wrap::after {
@@ -524,4 +526,69 @@ form .checkbox {
     background: url("../images/yes.svg") left 1px/ 100% auto no-repeat #E3B873;
     border-radius: 1px;
     margin-right: 8px;
+}
+
+.types-repair__content {
+    text-align: center;
+    padding: 73px 102px 124px;
+}
+
+.types-repair .title {
+    margin-bottom: 20px;
+}
+
+.types-repair__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.types-repair__image {
+    position: relative;
+    z-index: -1;
+}
+
+.types-repair__item {
+    text-align: left;
+}
+
+.types-repair__item .button {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 17px 22px;
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 31px;
+}
+
+.types-repair__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 13px;
+}
+
+ul.types-repair__list {
+    background-color: #ffffff;
+    padding: 25px 34px 50px;
+    max-width: 330px;
+    margin: 0 auto;
+    margin-top: -128px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+ul .types-repair__list-item {
+    text-align: left;
+}
+
+ul .types-repair__list-item:not(:first-child) {
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    list-style: inside;
 }
