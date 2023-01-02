@@ -148,7 +148,7 @@
           </p>
           <form action="" class="contact-form">
             <div class="input">
-              <p>Name</p>
+              <p class="input-label">Name</p>
               <input
                 class="input-tag name-input"
                 placeholder="What is your name:"
@@ -156,9 +156,9 @@
               />
             </div>
             <div class="input">
-              <p>Phone</p>
+              <p class="input-label">Phone</p>
               <input
-                class="input-tag name-input"
+                class="input-tag phone-input"
                 placeholder="Your phone number:"
                 maxlength="28"
               />
@@ -282,13 +282,103 @@
         </div>
       </section>
       <section class="request">
-        <div class="request__content">
-          <div class="request__benefits"></div>
-          <div class="request__call"></div>
+        <div class="request__content wrap">
+          <ul class="benefits-list">
+            <li class="benefits__item">
+              <div class="benefits__number"><h4 class="title">01</h4></div>
+              <p class="benefits__description">
+                Our specialist will arrive for measurements per day contact, or
+                appoint a date convenient for you
+              </p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__number"><h4 class="title">02</h4></div>
+              <p class="benefits__description">
+                Our specialist will arrive for measurements per day contact, or
+                appoint a date convenient for you
+              </p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__number"><h4 class="title">03</h4></div>
+              <p class="benefits__description">
+                Our specialist will arrive for measurements per day contact, or
+                appoint a date convenient for you
+              </p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__number"><h4 class="title">04</h4></div>
+              <p class="benefits__description">
+                Our specialist will arrive for measurements per day contact, or
+                appoint a date convenient for you
+              </p>
+            </li>
+          </ul>
+          <form class="request__call">
+            <p class="request__description">
+              Leave a request for free<br />
+              departure of the measurer
+            </p>
+            <div class="input input--light">
+              <p class="input-label">Name</p>
+              <input
+                class="input-tag name-input"
+                placeholder="What is your name:"
+                maxlength="28"
+              />
+            </div>
+            <div class="input input--light">
+              <p class="input-label">Phone</p>
+              <input
+                class="input-tag phone-input"
+                placeholder="Your phone number:"
+                maxlength="28"
+              />
+            </div>
+            <div class="input input--light">
+              <p class="input-label">Email</p>
+              <input
+                class="input-tag email-input"
+                placeholder="Your email address:"
+                maxlength="28"
+              />
+            </div>
+
+            <div class="checkbox">
+              <input
+                id="agree-request"
+                autocomplete="off"
+                type="checkbox"
+                name="agree-request"
+                class="checkbox__input"
+              />
+              <label
+                for="agree-request"
+                class="checkbox__label checkbox__label--light"
+              >
+                I agree to the processing of personal data
+              </label>
+            </div>
+            <button class="button button--active">Call the measurer</button>
+          </form>
+          <div class="good-benefit">
+            <div class="good-benefit__content">
+              <div class="good-benefit__icon">
+                <img src="images/pig.svg" alt="ico: good benefit" />
+              </div>
+
+              <span class="good-benefit__description">
+                Help save 10 - 20% <br />of the cost of materials
+              </span>
+            </div>
+          </div>
         </div>
       </section>
       <section class="styles">
-        <div class="styles__content"></div>
+        <div class="styles__content wrap">
+          <h2 class="title title--gold">
+            We realize your<br />wildest fantasies
+          </h2>
+        </div>
       </section>
       <section class="clients">
         <div class="clients__content"></div>
