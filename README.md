@@ -9,3 +9,4 @@
 ### Технологии:
 - html
 - css
+- flexbox
