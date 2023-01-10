@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design agency IC &#171;REPAIR DESIGN PROJECT&#187;</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/mobile-style.css" />
   </head>
   <body>
     <header class="header">
@@ -43,12 +44,17 @@
         <div class="home__container wrap">
           <div class="home__content">
             <h1 class="home__title title">
-              Turnkey Repair in the<br />
-              city of <span class="title title--gold">Rostov-on-Don</span>
+              Turnkey Repair in the<br class="_break" />
+              city of
+              <span class="home__title-gold title title--gold"
+                >Rostov-on-Don</span
+              >
             </h1>
             <p class="home__description">
-              Get ready-made turnkey repairs on time<br />
-              with work time saving up to 45 days and 20% from<br />
+              Get ready-made turnkey repairs on time<br class="_break" />
+              with work time saving up to 45 days and 20% from<br
+                class="_break"
+              />
               cost of materials due to the organization of work
             </p>
             <button class="home__button button" type="button">
@@ -70,38 +76,44 @@
             <h2 class="projects__elem-content title title--gold">
               Completed<br />projects
             </h2>
-            <p class="projects__elem-content project-description">
-              Only a small part of the work performed by our company is
-              presented on the site. For 14 years on in the construction market
-              we have made happy more than 1000 families
-            </p>
+            <div class="projects__elem-content project-description">
+              <p class="project-description__txt">
+                Only a small part of the work performed by our company is
+                presented on the site. For 14 years on in the construction
+                market we have made happy more than 1000 families
+              </p>
+            </div>
             <div class="projects__elem-content project-items">
-              <div class="project-items__info">
-                <h4 class="project-items__subtitle subtitle subtitle--gold">
-                  City:
-                </h4>
-                <p class="project-items__description">
-                  Rostov-on-Don<br />
-                  LCD admiral
-                </p>
+              <div class="project-items__row">
+                <div class="project-items__info">
+                  <h4 class="project-items__subtitle subtitle subtitle--gold">
+                    City:
+                  </h4>
+                  <p class="project-items__description">
+                    Rostov-on-Don<br />
+                    LCD admiral
+                  </p>
+                </div>
+                <div class="project-items__info">
+                  <h4 class="project-items__subtitle subtitle subtitle--gold">
+                    Apartment area:
+                  </h4>
+                  <p class="project-items__description">81 m<sup>2</sup></p>
+                </div>
               </div>
-              <div class="project-items__info">
-                <h4 class="project-items__subtitle subtitle subtitle--gold">
-                  Apartment area:
-                </h4>
-                <p class="project-items__description">81 m<sup>2</sup></p>
-              </div>
-              <div class="project-items__info">
-                <h4 class="project-items__subtitle subtitle subtitle--gold">
-                  Repair time:
-                </h4>
-                <p class="project-items__description">3.5 months</p>
-              </div>
-              <div class="project-items__info">
-                <h4 class="project-items__subtitle subtitle subtitle--gold">
-                  Repair Cost:
-                </h4>
-                <p class="project-items__description">Upon request</p>
+              <div class="project-items__row">
+                <div class="project-items__info">
+                  <h4 class="project-items__subtitle subtitle subtitle--gold">
+                    Repair time:
+                  </h4>
+                  <p class="project-items__description">3.5 months</p>
+                </div>
+                <div class="project-items__info">
+                  <h4 class="project-items__subtitle subtitle subtitle--gold">
+                    Repair Cost:
+                  </h4>
+                  <p class="project-items__description">Upon request</p>
+                </div>
               </div>
             </div>
             <div class="projects__elem-content slider-control">
@@ -150,6 +162,22 @@
                 width="679"
                 height="482"
               />
+              <div class="slider-button">
+                <div class="slider-button__wrap slider-button__wrap--prev">
+                  <img
+                    class="slider-button__svg"
+                    src="./images/icons/next.svg"
+                    alt="icon: arrow next"
+                  />
+                </div>
+                <div class="slider-button__wrap">
+                  <img
+                    class="slider-button__svg"
+                    src="./images/icons/next.svg"
+                    alt="icon: arrow next"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -197,7 +225,7 @@
             action="#"
             onsubmit="return false;"
           >
-            <div class="input">
+            <div class="online-control__input-elem input">
               <p class="input__label">Name</p>
               <input
                 class="online-control__input input__tag"
@@ -206,7 +234,7 @@
                 type="text"
               />
             </div>
-            <div class="input">
+            <div class="online-control__input-elem input">
               <p class="input__label">Phone</p>
               <input
                 class="online-control__input input__tag"
@@ -250,15 +278,9 @@
             </div>
             <ul class="types-repair__items">
               <li class="types-repair__item">
-                <div class="types-repair__image-wrap">
-                  <img
-                    class="types-repair__image"
-                    src="./images/types-repair-01.jpg"
-                    alt="image: types of repair #01"
-                    width="392"
-                    height="421"
-                  />
-                </div>
+                <div
+                  class="types-repair__image-wrap types-repair__image-wrap--first"
+                ></div>
                 <ul class="types-repair__list">
                   <li class="types-repair__list-item">
                     <h4 class="types-repair__subtitle subtitle subtitle--dark">
@@ -289,15 +311,9 @@
                 </div>
               </li>
               <li class="types-repair__item">
-                <div class="types-repair__image-wrap">
-                  <img
-                    class="types-repair__image"
-                    src="./images/types-repair-02.jpg"
-                    alt="image: types of repair #02"
-                    width="392"
-                    height="421"
-                  />
-                </div>
+                <div
+                  class="types-repair__image-wrap types-repair__image-wrap--second"
+                ></div>
                 <ul class="types-repair__list">
                   <li class="types-repair__list-item">
                     <h4 class="types-repair__subtitle subtitle subtitle--dark">
@@ -323,15 +339,9 @@
                 </div>
               </li>
               <li class="types-repair__item">
-                <div class="types-repair__image-wrap">
-                  <img
-                    class="types-repair__image"
-                    src="./images/types-repair-03.jpg"
-                    alt="image: types of repair #03"
-                    width="392"
-                    height="421"
-                  />
-                </div>
+                <div
+                  class="types-repair__image-wrap types-repair__image-wrap--third"
+                ></div>
                 <ul class="types-repair__list">
                   <li class="types-repair__list-item">
                     <h4 class="types-repair__subtitle subtitle subtitle--dark">
@@ -478,7 +488,7 @@
         <div class="styles__container wrap">
           <div class="styles__content">
             <div class="styles__info">
-              <h2 class="title title--gold">
+              <h2 class="styles__title title title--gold">
                 We realize your<br />wildest fantasies
               </h2>
               <ul class="styles__list">
@@ -528,6 +538,22 @@
                 <div class="styles__image-top"></div>
                 <div class="styles__image-bottom"></div>
               </div>
+              <div class="slider-button">
+                <div class="slider-button__wrap slider-button__wrap--prev">
+                  <img
+                    class="slider-button__svg"
+                    src="./images/icons/next.svg"
+                    alt="icon: arrow next"
+                  />
+                </div>
+                <div class="slider-button__wrap">
+                  <img
+                    class="slider-button__svg"
+                    src="./images/icons/next.svg"
+                    alt="icon: arrow next"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -554,7 +580,7 @@
                 <div class="feedback__client">
                   <div class="feedback__image">
                     <img
-                      src="./images/client-1.jpg"
+                      src="./images/client-01.jpg"
                       alt="image: client's photo Fedosova M K"
                       height="76"
                     />
@@ -604,7 +630,7 @@
                 <div class="feedback__client">
                   <div class="feedback__image">
                     <img
-                      src="./images/client-2.jpg"
+                      src="./images/client-02.jpg"
                       alt="image: client's photo Afanasyev S A"
                       height="76"
                     />
@@ -654,7 +680,7 @@
                 <div class="feedback__client">
                   <div class="feedback__image">
                     <img
-                      src="./images/client-3.jpg"
+                      src="./images/client-03.jpg"
                       alt="image: client's photo Kiriev E L"
                       height="76"
                     />
@@ -762,8 +788,9 @@
             </div>
           </form>
           <h3 class="contacts__info title title--gold">
-            Rostov-on-Don, Nansen St., 239 Shopping Center<br />
-            Decorum Tel +7 (928) 768 32 29
+            Rostov-on-Don, Nansen St., 239 <br class="_break-sm" />Shopping
+            Center<br class="_break" />
+            Decorum <br class="_break-sm" />Tel +7 (928) 768 32 29
           </h3>
           <div class="social-media">
             <a class="social-media__link" href="#" title="Our email">
