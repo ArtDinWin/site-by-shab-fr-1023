@@ -199,6 +199,10 @@
 
     }
 
+    .online-control__input {
+        margin-right: 0;
+    }
+
     .online-control__input-elem:nth-child(1) {
         margin-bottom: 63px;
     }

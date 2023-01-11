@@ -105,7 +105,7 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -117,7 +117,7 @@ main {
     margin-top: 82px;
 }
 
-header {
+.header {
     height: 83px;
     background: var(--second-dark-color);
 }
