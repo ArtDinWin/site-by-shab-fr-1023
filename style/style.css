@@ -122,13 +122,13 @@ main {
     background: var(--second-dark-color);
 }
 
-footer {
+.footer {
     height: 133px;
     background: var(--dark-color);
 }
 
-header,
-footer {
+.header,
+.footer {
     font-size: 11px;
     line-height: 1.36;
 }
