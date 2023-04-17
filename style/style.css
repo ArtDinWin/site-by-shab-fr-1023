@@ -378,7 +378,7 @@ section {
 }
 
 .slider-control__dot {
-    vertical-align: top;
+    /* vertical-align: top; */
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -394,6 +394,17 @@ section {
 .slider-control__next,
 .slider-control__prev {
     cursor: pointer;
+    transition: all .3s;
+}
+
+.slider-control__next:hover {
+    transform: rotate(0deg) scaleX(-1) scale(1.2);
+    transition: all .3s;
+}
+
+.slider-control__prev:hover {
+    transform: scale(1.2);
+    transition: all .3s;
 }
 
 .slider-control__next {
